@@ -1,78 +1,53 @@
-# Exercise #2: Landing Page
-10 points
+# Crown & Canvas Hair & Beauty – Landing Page
 
-**DUE: Friday, January 24 by 5:00pm**
+Welcome to the **Crown & Canvas Hair & Beauty** landing page project — a stylish, modern single-page design built to showcase the visual branding and online presence of a luxury beauty salon. Originally developed for a school assignment, this project has been refined as part of my **web design & development portfolio** to demonstrate my capabilities in visual design, responsive layout, and brand storytelling through digital experiences.
 
-### Instructions
-One of the most common web development tasks is to build a **Landing Page**, the
-first thing visitors will see when visiting a web address. Developers and
-designers have built up a fairly common set of elements that you'll see used
-again and again and that give us a good opportunity to put our new CSS skills
-to work.
+## 🔗 Project Preview
 
-First, let's look at some well-designed landing pages: [airbnb.com](airbnb.com);
-[shopify.com](shopify.com); [notion.so](notion.so). And of course
-[uchicago.edu](uchicago.edu). Look at them on your laptop browser and with your
-phone.
+**Figma Design:**
+[View the Crown & Canvas UI in Figma →](https://www.figma.com/community/file/1532594280724328675)
 
-Now, make your own landing page for an imaginary product, company, or
-institution. Your page should, at a minimum, contain the following elements:
-1. A navigation bar across the top
-1. A large, visually appealing hero element with a clear "call to action"
-  button or link.
-1. At least three sections with multi-column desktop layouts, for example:
-  - Pricing tiers !
-  - User testimonials
-  - Stories or case studies
-  - Sample listings !
-  - Popular or trending
-  These sections should vary the number and spacing of columns. Use one
-  column-count, one flexbox, and one css grid.
-1. A footer element with links
-Make your page display reasonably on mobile devices. Note that you are allowed
-to collapse or drop some elements in the mobile view.
-Use at least two fonts other than the system default. You do not need to include
-any animation or other interactive elements, but are welcome to.
-Clone this repositoriy, and edit `index.html` and `styles/landing.css`.
-Put all your styling into `landing.css` instead of putting your CSS directly
-in a `<style>` element or as a `style` attribute. You only need to make the
-landing page. There's no need to make a second `html` file, and all your links
-can have `href="#"`.
-Remember to include in your submission any classmates you collaborated with and
-any materials you consulted. Because these pages are for imaginary organizations
-you have each made up, *we expect them to be fairly different from one another.*
+## 🎯 Project Goals
 
-### Grading Rubric:
-  * 1 point: All styling is in `landing.css` and applied with CSS selectors, 
-    instead of inline
-  * 1 point: Hero element with a call to action button or link
-  * 1 point: Header with navigation elements, Footer with links to "meta" pages: 
-    "About Us", "Terms of Service", "Privacy", etc. 
-  * 1 point: Correct use of one column-count layout
-  * 1 point: Column-count changes to fewer columns on a narrow screen width 
-    (<500px)
-  * 1 point: Correct use of one flexbox layout
-  * 1 point: Flex changes to one item per row on a narrow screen width
-  * 1 point: Correct use of one grid layout
-  * 1 point: Grid changes to fewer columns on a narrow screen width
-  * 1 point: Header and footer change to a vertical layout or are hidden on a 
-    narrow screen width
+* Create a visually compelling landing page for a premium hair and beauty salon
+* Communicate brand elegance and professionalism through typography, layout, and color
+* Showcase service offerings, stylist bios, and booking CTA
+* Ensure responsive layout and strong visual hierarchy
+* Practice brand-focused, mobile-friendly web design
 
-### Resources:
-- [Designing Hero Images - Smashing Magazine](https://www.smashingmagazine.com/2017/06/designing-hero-images/)
-- High-resolution background images from
-  - [Unsplash](https://unsplash.com/backgrounds/apps/website)
-  - [Burst](https://burst.shopify.com/)
-  - [Magdeleine](https://magdeleine.co/)
-  - [The Art Institute of Chicago](https://www.artic.edu/collection)
-- [FontPair](https://fontpair.co/)
-- [Color Suggestions](https://flatuicolors.com/)
-- Nonsense text generators
-  - [loremipsum.io](https://loremipsum.io/)
-  - [Riker Ipsum](http://rikeripsum.com/)
-  - [Output of a neural net trained on Erowid reports](https://github.com/gtdlk20/NN_final/tree/master/generated_texts)
-  - [ChatGPT](https://openai.com/blog/chatgpt/)
-- AI Image Generators
-  - [Dall-E 2](https://openai.com/dall-e-2/)
-  - [Stable Diffusion](https://stablediffusionweb.com/)
-  - [Midjourney](https://midjourney.com/)
+## 🛠️ Tools & Skills Demonstrated
+
+* **Figma** – UI/UX design, wireframes to high-fidelity mockups
+* **HTML/CSS** – Clean semantic markup, responsive styling (if implemented)
+* **Web Design Principles** – Brand identity, layout design, mobile optimization
+* **Typography & Color Theory** – Strategic font pairing and palette selection to match target audience
+
+## 📌 Key Features
+
+* Hero section with brand logo and call-to-action
+* Services overview and pricing grid
+* “Meet the Stylists” section with image-driven bios
+* Embedded appointment button for future integration
+* Mobile-responsive layout (in coded version)
+* Elegant use of whitespace and visual rhythm
+
+## 💡 Why This Project?
+
+This project allowed me to combine my design instincts with real-world branding needs. By building for a real salon, which can be found at: [https://www.styleseat.com/m/v/crownandcanvas?fbclid=PAZXh0bgNhZW0CMTEAAads_v73JhgSiK8IzIn5nPpMnlNCO9qCt-oZzC3b8DbC9nWJppHa8-97_5gYdA_aem_fSfKHIrm_6W12cXI3XuW_w](url)
+
+* Created website from scratch
+* Researched competitor brands and similar websites
+* Tone-setting through color and imagery
+* Strategic content structuring
+* Designing for conversion (i.e., clear booking paths)
+
+It now serves as a strong example of my front-end design sensibility and ability to translate brand identity into digital form.
+
+## 🚀 Next Steps
+
+* Build fully coded additional pages
+* Integrate with CMS for dynamic updates (optional future enhancement)
+
+---
+
+Let me know if you also want to include screenshots or a live deployment link. I can also help you turn this into a page for your portfolio site.
