@@ -1,0 +1,406 @@
+/* Jovanay Carter, Jan 24, 2025 */
+
+/**** HTML ****/
+
+html {
+    background-color: #ffffff;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    color: #333;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+/**** NAV BAR ****/
+
+
+.navbar {
+    background-color: black;
+    padding: 10px 10%; /* first top and bottom, then left & right*/
+}
+
+.nav-items {
+    display: flex;
+    justify-content: flex-end; /* elements on right */
+    list-style-type: none;
+}
+
+.nav-items li {
+    margin-left: 20px;
+}
+
+.nav-items a {
+    float: right;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: color 0.3s;
+}
+
+.nav-items a:hover {
+    color: lightskyblue;
+}
+
+.nav-items a.active {
+    background-color: rgb(28, 54, 54);
+}
+
+/**** HERO SECTION ****/
+
+.hero {
+    height: 20vh;
+    background: url('../images/b&w_natural.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: 30%;
+    text-align: center;
+    color: white;
+    padding: 20%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.primary-btn {
+    background-color: azure;
+    color: black;
+}
+
+.primary-btn:hover {
+    background-color: darkslategray;
+}
+
+
+/**** SECTION 2: TOP SERVICES ****/
+.top-styles-section {
+    display: flex;
+    justify-content: center; /* Center the container on the page */
+    padding: 40px 20px; /* Add padding around the section */
+    background-color: #fff;
+  }
+  
+  .top-styles-container {
+    display: flex;
+    align-items: center; /* Vertically align content */
+    justify-content: space-between;
+    max-width: 1500px; /* Limit container width & picture width */
+    width: 100%;
+    gap: 100px; /* For between image and table */
+    padding: 40px 20px;
+    box-sizing: border-box;
+  }
+  
+  #top-styles-img {
+    flex: 1;
+    max-width: 100%;
+  }
+  
+  #top-styles-img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .top-styles-content {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .top-styles-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.8; /* Improve readability */
+  }
+
+table {
+    vertical-align: center;
+    border: 1.5px solid;
+    border-color: rgb(185, 185, 185);
+    border-spacing: 20px 30px;
+}
+
+table th {
+    background-color: rgb(185, 185, 185);
+}
+
+.secondary-btn {
+    color: darkslategray;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.secondary-btn hover {
+    background-color: darkseagreen;
+}
+
+
+/**** SECTION 3: ALL SERVICES ****/
+
+.all-services-section {
+    background-color: rgb(161, 174, 171);
+    padding: 30px 10%; /* Add padding around the section */
+    
+}
+
+.all-services-header h2 {
+    text-align: center;
+}
+
+.all-services-grid {
+    display: grid;
+    justify-content: center; /* Center the container on the page */
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 10px 5%;
+}
+
+.service-card {
+    border: 2px solid #333;
+    padding: 20px; /* padding within each grid item */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.service-card p {
+    margin-bottom: 20px;
+}
+
+
+/**** SECTION 4: CUSTOMER IMAGES / CASE STUDIES ****/
+.customer-socials-header h2 {
+    text-align: center;
+}
+.customer-socials-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  
+.customer-socials-flex {
+    display: flex;
+    align-items: center; /* Vertically align content */
+    justify-content:center;
+    max-width: 1500px; /* Limit container width & picture width */
+    width: 100%;
+    gap: 20px; /* For between image and table */
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.customer-socials-header h2 {
+    text-align: center;
+}
+
+.social-img img {
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/**** SECTION 4: REVIEWS ****/
+.reviews-section-container h2 {
+    text-align: center;
+}
+
+.review-section-container {
+    display: flex;
+    align-items: center; /* Vertically align content */
+    justify-content: space-between;
+    max-width: 100px; /* Limit container width & picture width */
+    width: 100%;
+    gap: 100px; /* For between image and table */
+    padding: 10% 20px;
+    box-sizing: border-box;
+  }
+
+  .review-card {
+    flex: 1;
+    max-width: 100%;
+    padding: 50px 15%;
+}
+
+
+/**** FOOTER ****/
+
+.flex-footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+  
+  .footer-element {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px; 
+  }
+  
+  .footer-element h3, .footer-element h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #f0c040;
+  }
+  
+  .footer-element p, a {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: white
+  }
+  
+
+/**** MOBILE RESPONSIVENESS (FOR SCREENS < 500px) ****/
+@media (max-width: 500px) {
+    /**** NAV BAR ****/
+    .nav-items {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-items li {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  
+    /**** HERO SECTION ****/
+    .hero {
+      padding: 10%;
+      text-align: center;
+    }
+  
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    /**** SECTION 2: TOP SERVICES ****/
+    .top-styles-container {
+      flex-direction: column; /* Stack image and content vertically */
+      gap: 20px; 
+    }
+  
+    #top-styles-img {
+      max-width: 100%;
+    }
+  
+    #top-styles-img img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .top-styles-content {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    table {
+      font-size: 0.8rem;
+    }
+  
+    /**** SECTION 3: ALL SERVICES ****/
+    .all-services-grid {
+        grid-template-columns: repeat(2, 1fr); /* Display only 2 columns */
+        gap: 20px;
+        padding: 10px 5%;
+    }
+    
+    .service-card {
+        padding: 15px;
+        text-align: center;
+    }
+    
+  
+    .service-card {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    /**** SECTION 4: CUSTOMER IMAGES / CASE STUDIES ****/
+    .customer-socials-flex {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .social-img img {
+      width: 100%;
+      height: auto; 
+    }
+  
+    /**** SECTION 4: REVIEWS ****/
+    .review-section-container {
+      flex-direction: column; 
+      align-items: center; 
+      gap: 20px;
+    }
+  
+    .review-card {
+      padding: 20px;
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    /**** FOOTER ****/
+    .flex-footer-container {
+      flex-direction: column; 
+      align-items: center;
+      gap: 20px; 
+      text-align: center;
+    }
+  
+    .footer-element {
+      max-width: 100%;
+    }
+  }
+  
